@@ -11,7 +11,7 @@
 
 
 
-💡Para executar em modo SSL é necessário a geração de certificados válidados. Neste caso foi ultilizado uma VPS e um Dominio [Hostinger][hostinger].
+💡Para executar em modo SSL é necessário a geração de certificados validados. Neste caso, foi ultilizado uma VPS e um Dominio [Hostinger][hostinger].
 
 
 ### Pré-requisitos
@@ -41,7 +41,7 @@ $ cat /etc/letsencrypt/live/seu-dominio/fullchain.pem /etc/letsencrypt/live/seu-
 
 ```
 
-### 🧭 Building e Dockerize
+### 🧭 Building e Dockerize o projeto.
 
 ```bash
 # Acesse o diretório /node-docker-haproxy
@@ -54,7 +54,7 @@ $ docker-compose up -d
 $ docker-compose down
 
 
-# A aplicação será aberta no host inserido durante a geração dos certificados
+# A aplicação será aberta no dominio inserido durante a geração dos certificados
 ```
 
 [vscode]: https://code.visualstudio.com/
